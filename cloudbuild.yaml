@@ -3,3 +3,5 @@ steps:
     entrypoint: 'python'
     args: ['hello.py']
 timeout: '120s'
+options:
+  logging: 'CLOUD_LOGGING_ONLY'  # Or use 'NONE' to disable logging

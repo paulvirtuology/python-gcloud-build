@@ -1,0 +1,5 @@
+steps:
+  - name: 'python:3.8'
+    entrypoint: 'python'
+    args: ['hello.py']
+timeout: '120s'
